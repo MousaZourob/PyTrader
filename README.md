@@ -4,4 +4,4 @@ Predictious trading bot that streams market data of specific instruments to buy 
 ### Resources Used: 
 * **TradingView webhooks:** https://www.tradingview.com/support/solutions/43000529348-i-want-to-know-more-about-webhooks/
 * **AWS Chalice Framework for Serverless Python:** https://github.com/aws/chalice
-* **Alpaca API:** https://alpaca.markets/docs/trading-on-alpaca/paper-trading/
+* **Alpaca API:** https://alpaca.markets/docs/api-documentation/api-v2/
