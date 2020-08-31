@@ -4,8 +4,11 @@ Automatic trading bot that streams market data of specific instruments to buy or
 
 ### Data flow:
 **1.** **TradingView alert** is set off creating a message containing JSON 
-**2.** Using the **TradingView webhook API**, a POST request containing the **JSON** message is sent to a REST API (**AWS Lambda** function)
+<br />
+**2.** Using the **TradingView webhook API**, a POST request containing the **JSON** message is sent to a REST API (**AWS Lambda** function) 
+<br />
 **3.** This executes a **Python** script running through the **AWS Chalice Serverless Framework** 
+<br />
 **4.** The **Python** script then executes a bracket order using the **Alpaca API Paper Trading API** (tested requests live and offline using **Insomnia REST API Client**)
 
 ### Demo:
