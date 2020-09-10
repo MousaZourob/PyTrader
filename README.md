@@ -25,7 +25,7 @@ Automatic trading bot that streams market data of specific instruments to buy or
 #### 3. Wait till alarm is triggered and orders are placed through Alpaca
 <img src="https://user-images.githubusercontent.com/66835262/89742880-d948bc80-da6b-11ea-90c3-58d0c3d9cfc7.png" width="800px">
 
-### Resources Used: 
+### Libraries and Frameworks Used: 
 * **TradingView webhooks:** https://www.tradingview.com/support/solutions/43000529348-i-want-to-know-more-about-webhooks/
 * **AWS Chalice Framework for Serverless Python:** https://github.com/aws/chalice
 * **Alpaca API:** https://alpaca.markets/docs/api-documentation/api-v2/
