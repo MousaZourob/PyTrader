@@ -3,7 +3,7 @@
 Automatic trading bot that streams market data of specific instruments to buy or sell them by placing bracket orders (back-end for <a href="https://github.com/MousaZourob/Falcon">Falcon</a>). 
 
 ### Data Flow:
-**1.** **TradingView alert** is set off creating a message containing JSON 
+**1.** **TradingView alert** is set off creating a JSON message containing ticker parameters such as open and closing price
 <br />
 **2.** Using the **TradingView webhook API**, a POST request containing the **JSON** message is sent to a REST API (**AWS Lambda** function) 
 <br />
