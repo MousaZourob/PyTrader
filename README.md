@@ -5,7 +5,7 @@ Automatic trading bot that streams market data of specific instruments to buy or
 ### Data Flow:
 **1.** **TradingView alert** is set off creating a JSON message containing ticker parameters such as open and closing price
 <br />
-**2.** Using the **TradingView webhook API**, a POST request containing the **JSON** message is sent to a REST API (**AWS Lambda** function) 
+**2.** Using **TradingView webhooks**, a POST request containing the **JSON** message is sent to a REST API (**AWS Lambda** function) 
 <br />
 **3.** This executes a **Python** script running through the **AWS Chalice Serverless Framework** 
 <br />
